@@ -1,9 +1,9 @@
 import re
 
-T = int(input())
-for _ in range(T):
+ 
+for _ in range(int(input())):
 	try:
-		re.compile(pattern)
+		re.compile(input())
 		print("True")
 	except Exception as e:
 		print("False")
